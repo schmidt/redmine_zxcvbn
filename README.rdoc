@@ -5,6 +5,9 @@ https://github.com/dropbox/zxcvbn to Redmine's password fields to improve the
 user's password choices.
 
 
+See https://github.com/schmidt/redmine_zxcvbn/tree/master/assets/doc/zxcvbn.png
+for a preview.
+
 
 == Installation
 
