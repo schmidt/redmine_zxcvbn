@@ -1,0 +1,36 @@
+= redmine_zxcvbn
+
+This plugin adds a password quality meter based on
+https://github.com/dropbox/zxcvbn to Redmine's password fields to improve the
+user's password choices.
+
+
+
+== Installation
+
+Please follow the default Redmine plugin installation instructions on
+https://redmine.org/projects/redmine/wiki/Plugins#Installing-a-plugin. This plugin does not contain any migrations or additional gem dependencies.
+
+
+
+== Usage and Configuration
+
+After successful installation, this plugin is ready to use and does not need any
+configuration.
+
+
+
+== Copyright
+
+Created by Gregor Schmidt - https://www.nach-vorne.eu - 2016
+
+Redmine zxcvbn is free software published under the terms of the GNU General
+Public License as published by the Free Software Foundation. See LICENSE.txt for
+details.
+
+If you did not receive a copy of the GNU General Public License along with the
+plugin, please see http://www.gnu.org/licenses/gpl-3.0.txt
+
+
+This plugin depends on zxcvbn published on https://github.com/dropbox/zxcvbn
+under the terms of the MIT License. See assets/vendor/LICENSE.txt for details.

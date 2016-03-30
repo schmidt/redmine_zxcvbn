@@ -1,0 +1,51 @@
+/**
+ * Additional styling to add password quality meter to password fields
+ **/
+
+.zxcvbn {
+  display: block;
+  height: 4px;
+  margin-top: -1px;
+
+  background-color: #ddd;
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+
+  transition: background-size 0.2s ease-in-out;
+}
+
+.zxcvbn-0 {
+  /** dark red: CC0000 */
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2210%22 height=%2210%22%3E%3Crect width=%2210%22 height=%2210%22 fill=%22%23CC0000%22/%3E%3C/svg%3E");
+  background-image: linear-gradient(#CC0000, #CC0000);
+  background-size: 10% 100%;
+}
+
+.zxcvbn-1 {
+  /** light red: FF6600 */
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2210%22 height=%2210%22%3E%3Crect width=%2210%22 height=%2210%22 fill=%22%23FF6600%22/%3E%3C/svg%3E");
+  background-image: linear-gradient(#FF6600, #FF6600);
+  background-size: 25% 100%;
+}
+
+.zxcvbn-2 {
+  /** yellow: FFCC00 */
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2210%22 height=%2210%22%3E%3Crect width=%2210%22 height=%2210%22 fill=%22%23FFCC00%22/%3E%3C/svg%3E");
+  background-image: linear-gradient(#FFCC00, #FFCC00);
+  background-size: 50% 100%;
+}
+
+.zxcvbn-3 {
+  /** light green: 009900 */
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2210%22 height=%2210%22%3E%3Crect width=%2210%22 height=%2210%22 fill=%22%23009900%22/%3E%3C/svg%3E");
+  background-image: linear-gradient(#009900, #009900);
+  background-size: 75% 100%;
+}
+
+.zxcvbn-4 {
+  /** dark green: 006633 */
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2210%22 height=%2210%22%3E%3Crect width=%2210%22 height=%2210%22 fill=%22%23006633%22/%3E%3C/svg%3E");
+  background-image: linear-gradient(#006633, #006633);
+  background-size: 100% 100%;
+}
