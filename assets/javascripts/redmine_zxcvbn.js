@@ -62,6 +62,10 @@
 
 
   change = function (e) {
+    if (typeof zxcvbn === "undefined") {
+      return;
+    }
+
     var input = $(this),
         span  = input.next(".zxcvbn"),
         value = input.val();
