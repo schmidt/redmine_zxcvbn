@@ -17,11 +17,13 @@
     }
 
     span = $("<span>").addClass("zxcvbn");
-    input.after(span).off(".zxcvbn").
-                      on("blur.zxcvbn",   change).
-                      on("change.zxcvbn", change).
-                      on("focus.zxcvbn",  change).
-                      on("keyup.zxcvbn",  change);
+    input.addClass("has_zxcvbn").
+          after(span).
+          off(".zxcvbn").
+          on("blur.zxcvbn",   change).
+          on("change.zxcvbn", change).
+          on("focus.zxcvbn",  change).
+          on("keyup.zxcvbn",  change);
 
     loadZxcvbn();
     handleSize(span, input);
